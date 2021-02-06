@@ -1,5 +1,5 @@
 export function answerFunc(s: string, a: string, b: string): number {
-  if (s.match(/^$/)) {
+  if (s.length === 0) {
     return -1;
   }
 
@@ -15,5 +15,3 @@ export function answerFunc(s: string, a: string, b: string): number {
 
   return res;
 }
-
-

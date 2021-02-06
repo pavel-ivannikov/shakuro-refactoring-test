@@ -3,7 +3,7 @@ import { func } from './task';
 
 export function runTests(): void {
   console.log(
-    'String empty. Expects -1: ', 
+    'String is empty. Expects -1: ', 
     func('', 'a', 'b') === answerFunc('', 'a', 'b')
   );
   console.log(
